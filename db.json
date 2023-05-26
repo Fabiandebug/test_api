@@ -1,16 +1,277 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "book_name": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "genre": "fiction",
-        "edition": "2021",
-        "publisher": "Bloomsbury",
-        "cost": 1299,
-        "borrowed": false
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "id": 1,
+      "firstName": "sbfhbs",
+      "secondName": "dkjdjksdsdn",
+      "gender": "female",
+      "email": "sdjkbsjhdb@gmail.com",
+      "dateOfBirth": "2023-05-22T21:00:00.000Z",
+      "frequency": -2,
+      "totalSpend": 8978009
+    },
+    {
+      "id": 2,
+      "firstName": "Alice",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "frequency": 2,
+      "totalSpend": 250.5
+    },
+    {
+      "id": 3,
+      "firstName": "Michael",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "frequency": 1,
+      "totalSpend": 700
+    },
+    {
+      "id": 4,
+      "firstName": "Sarah",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "frequency": 2,
+      "totalSpend": 150.25
+    },
+    {
+      "id": 5,
+      "firstName": "David",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "frequency": 1,
+      "totalSpend": 900.5
+    },
+    {
+      "id": 6,
+      "firstName": "Emily",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "frequency": 1,
+      "totalSpend": 400.75
+    },
+    {
+      "id": 7,
+      "firstName": "James",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "frequency": 2,
+      "totalSpend": 300
+    },
+    {
+      "id": 8,
+      "firstName": "Olivia",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "frequency": 1,
+      "totalSpend": 650
+    },
+    {
+      "id": 9,
+      "firstName": "Daniel",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "male",
+      "frequency": 1,
+      "totalSpend": 750.25
+    },
+    {
+      "id": 11,
+      "firstName": "Matthew",
+      "secondName": "Kamau",
+      "gender": "male",
+      "email": "example@gmail.com",
+      "dateOfBirth": "2023-05-23T21:00:00.000Z",
+      "frequency": 1,
+      "totalSpend": 850
+    },
+    {
+      "id": 12,
+      "firstName": "Isabella",
+      "secondName": "Kamau",
+      "email": "example@gmail.com",
+      "gender": "female",
+      "frequency": 1,
+      "totalSpend": 550.75
+    }
+  ],
+  "waiters": [
+    {
+      "id": 1,
+      "firstName": "Isabellaaaa",
+      "secondName": "Kamau",
+      "gender": "female",
+      "phoneNumber": 254711909223,
+      "idnumber": 12345678,
+      "dateOfBirth": "2023-05-22T21:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "firstName": "JJ",
+      "secondName": "ZZ",
+      "gender": "male",
+      "phoneNumber": 2547112344262,
+      "idnumber": 6522,
+      "dateOfBirth": "2023-05-24T21:00:00.000Z"
+    }
+  ],
+  "tables": [
+    {
+      "id": 11,
+      "tableName": "chui",
+      "description": "15pax",
+      "tableNo": 13,
+      "date": "2023-05-24T21:00:00.000Z"
+    }
+  ],
+  "bills": [
+    {
+      "id": 134,
+      "customerId": 1,
+      "tableNumber": 1,
+      "billAmount": 6786,
+      "date": "2023-01-01",
+      "status": "Paid",
+      "billItems": [
+        {
+          "id": 1,
+          "name": "Item 1",
+          "quantity": 2,
+          "price": 10,
+          "total": 20
+        },
+        {
+          "id": 2,
+          "name": "Item 2",
+          "quantity": 1,
+          "price": 15,
+          "total": 15
+        },
+        {
+          "id": 3,
+          "name": "Item 3",
+          "quantity": 3,
+          "price": 8,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": 1134,
+      "customerId": 1,
+      "tableNumber": 1,
+      "billAmount": 6786,
+      "date": "2023-01-01",
+      "status": "Paid",
+      "billItems": [
+        {
+          "id": 7,
+          "name": "Item 1",
+          "quantity": 2,
+          "price": 10,
+          "total": 20
+        },
+        {
+          "id": 8,
+          "name": "Item 2",
+          "quantity": 1,
+          "price": 15,
+          "total": 15
+        },
+        {
+          "id": 9,
+          "name": "Item 3",
+          "quantity": 3,
+          "price": 8,
+          "total": 24
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "customerId": 2,
+      "tableNumber": 2,
+      "billAmount": 4500,
+      "date": "2023-02-15",
+      "status": "Paid",
+      "billItems": [
+        {
+          "id": 11,
+          "name": "Item 1",
+          "quantity": 3,
+          "price": 10,
+          "total": 30
+        },
+        {
+          "id": 12,
+          "name": "Item 2",
+          "quantity": 2,
+          "price": 12,
+          "total": 24
+        },
+        {
+          "id": 13,
+          "name": "Item 3",
+          "quantity": 1,
+          "price": 8,
+          "total": 8
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "customerId": 3,
+      "tableNumber": 3,
+      "billAmount": 3200,
+      "date": "2023-03-10",
+      "status": "Unpaid",
+      "billItems": [
+        {
+          "id": 21,
+          "name": "Item 4",
+          "quantity": 4,
+          "price": 5,
+          "total": 20
+        },
+        {
+          "id": 22,
+          "name": "Item 5",
+          "quantity": 3,
+          "price": 10,
+          "total": 30
+        },
+        {
+          "id": 23,
+          "name": "Item 6",
+          "quantity": 2,
+          "price": 15,
+          "total": 30
+        }
+      ]
+    }
+  ]
+}
